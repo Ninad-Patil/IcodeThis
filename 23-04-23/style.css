@@ -1,0 +1,108 @@
+/* Add CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  height: 10vh;
+}
+.list li {
+  padding: 1em;
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  align-items: flex-start;
+  padding: 5em 4em;
+  position: relative;
+}
+
+.container1 {
+  width: 50vw;
+}
+
+.container1 h1,
+div {
+  padding-bottom: 1em;
+}
+.button-1,
+.button-2 {
+  padding: 1em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: #24a0ed;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sec2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5em 0;
+  background-color: black;
+  color: white;
+  flex-direction: column;
+  height: 45vh;
+}
+.container2 {
+  width: 50vw;
+  text-align: center;
+}
+
+.form {
+  width: 50%;
+}
+.input1 {
+  border: none;
+  padding: 1em 0 1em 0.5em;
+  border-radius: 0.5em;
+  width: 70%;
+}
+/* .shapes-container{
+position: absolute;
+} */
+
+.semicircle1 {
+  background-color: #fbb12f;
+  height: 30vh;
+  width: 70px;
+  border-radius: 125px 0 0 0;
+  position: absolute;
+  right: 3vw;
+  bottom: 0;
+}
+.semicircle2 {
+  background-color: red;
+  height: 18vh;
+  width: 30vw;
+  border-radius: 125px 0 0 125px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.triangle {
+  height: 0;
+  width: 0;
+  padding: 0;
+  border: 70px solid transparent;
+  border-bottom-color: blue;
+  border-right-color: blue;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+small {
+  opacity: 0.3;
+  font-size: x-small;
+}
